@@ -18,12 +18,11 @@
 /********************************
 /////////////////////////////////////////////////////////
 //                                                     //
-// 	Template Name: eLearn Sains al-Quran			   //
-/ 	Template Version: 4.0 							   //
-//  Designer: Syed Faizan Ali						   //
-//  Co-Designer: M. Agus Rizal and Syeh Abidin Khobar  //
-//  Company: PP. Wahid Hasyim						   //
-//  All rights are Strictly Reserved  				   //
+// 	Template Name: eLearn //
+// 	Template Version: 3.0 //
+//  Designer: Syed Faizan Ali //
+//  Company:Templateism
+//  All rights are Strictly Reserved  //
 //                                                     //
 /////////////////////////////////////////////////////////
 ********************************/
@@ -268,7 +267,7 @@ tt {
 
 body {
     background: #FFFFFF;
-    color: #FFFFFF;
+    color: #555555;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     margin: 0px;
@@ -316,21 +315,14 @@ a img {
     margin: 0;
     border: 0;
 }
-#header-inner img {
-	width: auto;
-	height: 100px;
-	margin-top: -35px;
-margin-left: -50px;
-}
 #header h1 {
-    margin-left: 0px;
+    margin: 0;
     font-weight: bold;
     font-size: 34px;
-	width:500px;
 }
 #header .description {} #header h1 a,
 #header h1 a:visited {
-    color: #1ec3bb;
+    color: #2071EE;
     text-decoration: none;
 }
 .margin-1200 {
@@ -466,7 +458,7 @@ h3.title-text,
     font-weight: bold;
     text-align: center;
     margin: 0px 0px 45px 0px;
-    color: #FFFFFF;
+    color: #202020;
 }
 .post h2 a {
     color: #111;
@@ -805,7 +797,7 @@ div#mcontent {
 #top-bar {
     float: left;
     width: 100%;
-    background: #1ec3bb;
+    background: #202020;
     padding: 10px 0px
 }
 .social-icons li {
@@ -814,7 +806,7 @@ div#mcontent {
     margin-right: 15px;
 }
 .social-icons li a {
-    color: #4c4a4a;
+    color: #ABABAB;
 }
 .social-icons li a:hover {
     color: #fff;
@@ -825,9 +817,9 @@ div#mcontent {
 .buttons li a {
     color: #fff;
     text-decoration: none;
-    background: #f57b15;
+    background: #2071EE;
     font-size: 12px;
-    padding: 8px 20px;
+    padding: 8px 24px;
     float: left;
     font-weight: bold;
     border-radius: 18px;
@@ -844,7 +836,7 @@ a.border-button {
 #featured-posts {
     float: left;
     width: 100%;
-    background: #1ec3bb;
+    background: #202020;
     padding: 95px 0px;
     margin-bottom: 89px;
 }
@@ -910,7 +902,7 @@ a.border-button {
     color: #111;
 }
 #featured-posts .post-info {
-    background: #f36c1a;
+    background: #2071EE;
     padding: 21px;
 }
 #featured-posts .post-info a {
@@ -934,7 +926,7 @@ a.border-button {
 =====================================*/
 
 .footer {
-    background-color: #216965 ;
+    background-color: #32302f;
     color: #CCC;
     border-top-color: rgba(0, 0, 0, .2);
     width: 100%;
@@ -1167,8 +1159,6 @@ li.recent-box:last-child {
     text-align: center;
     padding: 48px 0px;
     margin-bottom: 34px;
-  
-
 }
 #title-info h1 {
     margin: 0;
@@ -1265,7 +1255,7 @@ div#error-page {
 #our-team {
     width: 100%;
     float: left;
-    background: #1ec3bb ;
+    background: #F5F5F5;
     padding: 80px 0px;
     margin: 75px 0px 40px 0px;
 }
@@ -1303,7 +1293,7 @@ div#error-page {
     margin-top: 10px;
 }
 #our-team .rank {
-    color: #FFFFFF;
+    color: #9E9E9E;
     font-size: 13px;
 }
 #our-team .image-wrap {
@@ -1478,7 +1468,7 @@ nav#nav-mobile {
     display: none;
 }
 #nav-trigger {
-	float: right;	
+    float: right;
     margin: 0;
 }
 nav#nav-mobile {
@@ -1914,10 +1904,10 @@ nav#nav-mobile {
     }
     #nav-trigger {
         display: block;
-		margin-top: 12px;
+        margin-top: 12px;
     }
     #nav-mobile ul ul {
-		display: none!important;
+        display: none!important;
     }
     .popular1 li {
         width: 48%;
@@ -2332,7 +2322,8 @@ $(document).ready(function(){
 
 //]]>
 </script>
-</head>
+
+  </head>
 
 <body expr:class='data:blog.pageType'>
 
@@ -2341,18 +2332,17 @@ $(document).ready(function(){
 
 <!--Social Media-->
 <div class='social-icons left'>
- <li><a href='https://web.facebook.com/smasainsalquran/' style='text-decoration:none'><i class='fa fa-facebook'/>  Facebook</a></li>
- <li><a href='https://twitter.com/smasainsquran' style='text-decoration:none'><i class='fa fa-twitter'/>  Twitter</a></li>
- <li><a href='https://www.instagram.com/smasainsalquran/' style='text-decoration:none'><i class='fa fa-instagram'/>  Instagram</a></li>
- <li><a href='https://www.instagram.com/kobar_flutter/' style='text-decoration:none'>.</a></li>
+ <li><a href='#'><i class='fa fa-facebook'/></a></li>
+ <li><a href='#'><i class='fa fa-twitter'/></a></li>
+ <li><a href='#'><i class='fa fa-linkedin'/></a></li>
+ <li><a href='#'><i class='fa fa-google-plus'/></a></li>
+ <li><a href='#'><i class='fa fa-pinterest'/></a></li>
 </div>
 
 <!--Login Button-->
 <div class='buttons right'>
-  <li><a href='http://smasainsquran.ppwahidhasyim.com/p/blog-page.html'>Informasi PPDB 2020/2021</a></li>
-  <li><a class='border-button' href='https://sites.google.com/students.amikom.ac.id/psbsmasainswahidhasyimyk/home'>DAFTAR ONLINE</a></li>
-  <li><a class='border-button' href='#'>ID/EN</a></li>
- <!-- <li><a class='border-button' href='#'>Informasi PPDB 2020/2021</a></li> -->
+  <li><a href='#'>Login</a></li>
+  <li><a class='border-button' href='#'>Register</a></li>
   </div>  
 </div>
     </div>
@@ -2362,16 +2352,7 @@ $(document).ready(function(){
 
 <!--Header-->     
 <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
-       <b:widget id='Header1' locked='true' title='SMA Sains Al-Qur&apos;an Yayasan Pondok Pesantren Wahid Hasyim Yogyakarta (Header)' type='Header' version='1'>
-         <b:widget-settings>
-           <b:widget-setting name='displayUrl'>http://3.bp.blogspot.com/-AM9ggGMen4o/WRMM9GVtfvI/AAAAAAAAAUQ/D9ClvaQwZ2cNRyLGv5RwJqnmaSqZ7BRgwCK4B/s600/logo-utama.jpg</b:widget-setting>
-           <b:widget-setting name='displayHeight'>153</b:widget-setting>
-           <b:widget-setting name='sectionWidth'>934</b:widget-setting>
-           <b:widget-setting name='useImage'>true</b:widget-setting>
-           <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
-           <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
-           <b:widget-setting name='displayWidth'>600</b:widget-setting>
-         </b:widget-settings>
+       <b:widget id='Header1' locked='true' title='eLearn (Header)' type='Header'>
          <b:includable id='main'>
 
   <b:if cond='data:useImage'>
@@ -2426,35 +2407,53 @@ $(document).ready(function(){
 <!--Main Menu-->
 <nav id='primary_nav_wrap'>
 <ul>
-  <li class='current-menu-item'><a href='http://smasainsquran.ppwahidhasyim.com/'>Beranda</a></li>
-  <li><a href='#'>Profil</a>
+  <li class='current-menu-item'><a href='#'>Home</a></li>
+  <li><a href='#'>Menu 1</a>
     <ul>
-      <li><a href='http://smasainsquran.ppwahidhasyim.com/p/blog-page_87.html'>Profil SMA</a></li>
-      <li><a href='http://smasainsquran.ppwahidhasyim.com/p/blog-page_10.html'>Visi dan Misi </a></li>
-      <li><a href='#'>Struktur Organisasi</a></li>
-      
+      <li><a href='#'>Sub Menu 1</a></li>
+      <li><a href='#'>Sub Menu 2</a></li>
+      <li><a href='#'>Sub Menu 3</a></li>
+      <li><a href='#'>Sub Menu 4</a>
+        <ul>
+          <li><a href='#'>Deep Menu 1</a>
+            <ul>
+              <li><a href='#'>Sub Deep 1</a></li>
+              <li><a href='#'>Sub Deep 2</a></li>
+              <li><a href='#'>Sub Deep 3</a></li>
+                <li><a href='#'>Sub Deep 4</a></li>
+            </ul>
+          </li>
+          <li><a href='#'>Deep Menu 2</a></li>
+        </ul>
+      </li>
+      <li><a href='#'>Sub Menu 5</a></li>
     </ul>
   </li>
-  <li><a href='#'>AKADEMIK</a>
+  <li><a href='#'>Menu 2</a>
     <ul>
-      <li><a href='http://smasainsquran.ppwahidhasyim.com/p/penerapan-sistem-pendidikan-sma-sains.html'>Kurikulum</a></li>
-	  <li><a href='http://smasainsquran.ppwahidhasyim.com/p/kurikulumpesantren-kurikulum-pesantren.html'>Kurikulum Unggulan Pesantren</a></li>
-    <!-- <li><a href='http://smasainsquran.ppwahidhasyim.com/p/prog.html'>Kurikulum Unggulan Sains</a></li> &gt; -->
-
-      <li><a href='http://smasainsquran.ppwahidhasyim.com/p/ekstrakurikuler.html'>Ekstrakurikuler</a></li>
-      <li><a href='http://smasainsquran.ppwahidhasyim.com/p/prestasi-siswa-siswi-sma-sains-al-quran.html'>Prestasi Siswa</a></li>
+      <li><a href='#'>Sub Menu 1</a></li>
+      <li><a href='#'>Sub Menu 2</a></li>
+      <li><a href='#'>Sub Menu 3</a></li>
     </ul>
   </li>
-  <li><a href='#'>PPDB 2020/2021</a>
+  <li><a href='#'>Menu 3</a>
     <ul>
-      
-      <li><a href='http://smasainsquran.ppwahidhasyim.com/p/jalur-pendaftaran.html'>Jadwal Pendaftaran</a></li>
-      <li><a href='http://smasainsquran.ppwahidhasyim.com/p/fasilitas-pendaftaran.html'>Fasilitas Pendaftaran</a></li>
-      <li><a href='http://smasainsquran.ppwahidhasyim.com/p/sistem-pendaftaran.html'>Sistem Pendaftaran</a></li>
-	  <li><a href='http://smasainsquran.ppwahidhasyim.com/p/jalur-pendaftaran_9.html'>Jalur Seleksi</a></li>
+      <li class='dir'><a href='#'>Sub Menu 1</a></li>
+      <li class='dir'><a href='#'>Sub Menu 2 THIS IS SO LONG IT MIGHT CAUSE AN ISSEUE BUT MAYBE NOT?</a>
+        <ul>
+          <li><a href='#'>Category 1</a></li>
+          <li><a href='#'>Category 2</a></li>
+          <li><a href='#'>Category 3</a></li>
+          <li><a href='#'>Category 4</a></li>
+          <li><a href='#'>Category 5</a></li>
+        </ul>
+      </li>
+      <li><a href='#'>Sub Menu 3</a></li>
+      <li><a href='#'>Sub Menu 4</a></li>
+      <li><a href='#'>Sub Menu 5</a></li>
     </ul>
   </li>
-  <li><a href='http://smasainsquran.ppwahidhasyim.com/p/sma-sains-al-quran.html'>KONTAK KAMI</a></li>
+  <li><a href='#'>Menu 4</a></li>
 </ul>
 </nav>
 
@@ -2469,24 +2468,19 @@ $(document).ready(function(){
 <!--Image Slider-->
 <div id='slider-container'>
   <b:section class='slider' id='slider' showaddelement='yes'>
-    <b:widget id='Image3' locked='false' title='PENDAFTARAN ONLINE' type='Image'>
-      <b:widget-settings>
-        <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-DKChV7i41ns/XgYGV96vhqI/AAAAAAAAGTA/Dvpnbr6PL-QY3GN9-vNX-Rt-rGyx2YSFgCLcBGAsYHQ/a700/psb201.jpg</b:widget-setting>
-        <b:widget-setting name='displayHeight'>580</b:widget-setting>
-        <b:widget-setting name='sectionWidth'>938</b:widget-setting>
-        <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
-        <b:widget-setting name='displayWidth'>938</b:widget-setting>
-        <b:widget-setting name='link'>http://smasainsquran.ppwahidhasyim.com/p/sistem-pendaftaran.html</b:widget-setting>
-        <b:widget-setting name='caption'/>
-      </b:widget-settings>
+    <b:widget id='Image4' locked='false' title='Sometimes you need advice, Ask a teacher to solve your problems.' type='Image'>
       <b:includable id='main'>
     <b:if cond='data:title != &quot;&quot;'>
       <h2><data:title/></h2>
     </b:if>
     <div class='widget-content'>
-      <b:tag cond='data:link' expr:href='data:link' name='a'>
+      <b:if cond='data:link'>
+        <a expr:href='data:link'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+        </a>
+      <b:else/>
         <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-      </b:tag>
+      </b:if>
       <br/>
       <b:if cond='data:caption'>
         <span class='caption'><data:caption/></span>
@@ -2495,24 +2489,19 @@ $(document).ready(function(){
     <b:include name='quickedit'/>
   </b:includable>
     </b:widget>
-    <b:widget id='Image1' locked='false' title='' type='Image'>
-      <b:widget-settings>
-        <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-my0ZXrU-S2k/Xfco-Q91hYI/AAAAAAAAGSU/HLtD4xVQk-gN3TcAjXGUf-km07Qx6xQdQCLcBGAsYHQ/a700/gedung.jpg</b:widget-setting>
-        <b:widget-setting name='displayHeight'>606</b:widget-setting>
-        <b:widget-setting name='sectionWidth'>938</b:widget-setting>
-        <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
-        <b:widget-setting name='displayWidth'>938</b:widget-setting>
-        <b:widget-setting name='link'>http://smasainsquran.ppwahidhasyim.com/2017/01/pendaftaran-online.html</b:widget-setting>
-        <b:widget-setting name='caption'/>
-      </b:widget-settings>
+    <b:widget id='Image3' locked='false' title='Make a Difference with education, and be the best.' type='Image'>
       <b:includable id='main'>
     <b:if cond='data:title != &quot;&quot;'>
       <h2><data:title/></h2>
     </b:if>
     <div class='widget-content'>
-      <b:tag cond='data:link' expr:href='data:link' name='a'>
+      <b:if cond='data:link'>
+        <a expr:href='data:link'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+        </a>
+      <b:else/>
         <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-      </b:tag>
+      </b:if>
       <br/>
       <b:if cond='data:caption'>
         <span class='caption'><data:caption/></span>
@@ -2521,24 +2510,19 @@ $(document).ready(function(){
     <b:include name='quickedit'/>
   </b:includable>
     </b:widget>
-    <b:widget id='Image2' locked='false' title='' type='Image'>
-      <b:widget-settings>
-        <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/--6wywAyt47M/Xfcg8db92-I/AAAAAAAAGRY/BaRwFvtBF74UNv7AQpZAMnH1Agm7bVJNQCLcBGAsYHQ/a700/singapore.jpg</b:widget-setting>
-        <b:widget-setting name='displayHeight'>662</b:widget-setting>
-        <b:widget-setting name='sectionWidth'>938</b:widget-setting>
-        <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
-        <b:widget-setting name='displayWidth'>938</b:widget-setting>
-        <b:widget-setting name='link'>http://smasainsquran.ppwahidhasyim.com/p/pendaftaran-jalur-prestasi.html</b:widget-setting>
-        <b:widget-setting name='caption'/>
-      </b:widget-settings>
+    <b:widget id='Image2' locked='false' title='Putting Children First. Preparing Children For Success In Life' type='Image'>
       <b:includable id='main'>
     <b:if cond='data:title != &quot;&quot;'>
       <h2><data:title/></h2>
     </b:if>
     <div class='widget-content'>
-      <b:tag cond='data:link' expr:href='data:link' name='a'>
+      <b:if cond='data:link'>
+        <a expr:href='data:link'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+        </a>
+      <b:else/>
         <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-      </b:tag>
+      </b:if>
       <br/>
       <b:if cond='data:caption'>
         <span class='caption'><data:caption/></span>
@@ -2547,24 +2531,19 @@ $(document).ready(function(){
     <b:include name='quickedit'/>
   </b:includable>
     </b:widget>
-    <b:widget id='Image4' locked='false' title='' type='Image'>
-      <b:widget-settings>
-        <b:widget-setting name='displayUrl'>http://1.bp.blogspot.com/-mSBeic1VN1g/XBbcKBtE68I/AAAAAAAAAmE/_PxeLT-l4ag84RHVBPVx-86XHtKwH9wkQCK4BGAYYCw/s938/prestasi2.jpg</b:widget-setting>
-        <b:widget-setting name='displayHeight'>938</b:widget-setting>
-        <b:widget-setting name='sectionWidth'>938</b:widget-setting>
-        <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
-        <b:widget-setting name='displayWidth'>838</b:widget-setting>
-        <b:widget-setting name='link'/>
-        <b:widget-setting name='caption'/>
-      </b:widget-settings>
+    <b:widget id='Image1' locked='false' title='How you can get top grades, to get a best job.' type='Image'>
       <b:includable id='main'>
     <b:if cond='data:title != &quot;&quot;'>
       <h2><data:title/></h2>
     </b:if>
     <div class='widget-content'>
-      <b:tag cond='data:link' expr:href='data:link' name='a'>
+      <b:if cond='data:link'>
+        <a expr:href='data:link'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+        </a>
+      <b:else/>
         <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-      </b:tag>
+      </b:if>
       <br/>
       <b:if cond='data:caption'>
         <span class='caption'><data:caption/></span>
@@ -2578,39 +2557,11 @@ $(document).ready(function(){
   <div class='slider-load'><span><i class='fa fa-spin fa-spinner'/></span></div>
 
   </div>
-
-
-<div id='our-team'>
-<div class='margin-1200'>
-
-<h3 class='title-texts'>Program Unggulan</h3>
-
-
-  <h3 align='center'> SMA Sains Al-Qur&#39;an dikelola dalam sistem Pendidikan Pesantren dengan Program Unggulan : </h3>
-
-  <h5 align='center'> Program Pendidikan Pesantren </h5> 
-   
- 
- <li><span class='image-wrap'><img src='https://2.bp.blogspot.com/-NguGoBF72jE/WvwrpgPtJQI/AAAAAAAAAKk/cYFZNqR7U64uoIbTSx5CZyW2G7qPNIC8ACLcBGAs/s1600/quranl.jpg'/></span><span class='name'>Tahfidzul Qur&#39;an</span><span class='rank'/></li>   
-
- <li><span class='image-wrap'><img src='https://4.bp.blogspot.com/-bQlKwAEz4EY/WvwuWBeCbII/AAAAAAAAAK4/EjAfvBBphUkk-phzugbvfxa29amX4swYgCLcBGAs/s1600/bahasa.jpeg'/></span><span class='name'>Bahasa Asing</span><span class='rank'/></li>   
-
- <li><span class='image-wrap'><img src='https://1.bp.blogspot.com/-NP9bhPKtUuc/WvwqD3f4SvI/AAAAAAAAAKY/To_J-mu6L-8lLwt6oIB-v-Msuet8qHMNgCLcBGAs/s1600/kitab.jpg'/></span><span class='name'>Kitab Kuning</span><span class='rank'/></li>  
-
- <li><span class='image-wrap'><img src='https://1.bp.blogspot.com/-M-whwKQ7fwg/WvwwnV1JvUI/AAAAAAAAALM/OxmlVNrQjzgAX4YppMvNitcCDIYwu6EYgCLcBGAs/s1600/sainss.jpg'/></span><span class='name'>Penguasaan Sains dan Teknologi</span><span class='rank'/></li> 
-
-</div>
-</div>
-
-
 <!--Featured Post-->
 <div id='featured-posts'>
 <div class='margin-1200'>
 <b:section class='recent' id='Featured-Post' maxwidgets='1' showaddelement='yes'>
-  <b:widget id='HTML103' locked='true' title='Berita Terbaru' type='HTML' version='1'>
-    <b:widget-settings>
-      <b:widget-setting name='content'>Populer</b:widget-setting>
-    </b:widget-settings>
+  <b:widget id='HTML103' locked='true' title='Featured Posts' type='HTML'>
     <b:includable id='main'>
   <div class='widget-content'>
 
@@ -2619,35 +2570,6 @@ $(document).ready(function(){
 </div>
 </div>
 
-<script type='text/javascript'>
-
-//<![CDATA[
-function getQueryVariable(variable) {
-    var query = window.location.search.substring(1);
-    var vars = query.split("&");
-    for (var i = 0; i < vars.length; i++) {
-        var pair = vars[i].split("=");
-        if (pair[0] == variable) {
-            return pair[1];
-        }
-    }
-    return (false);
-}
-window.onload = function() {
- var url  = getQueryVariable("url");
- var download  = getQueryVariable("download")
-var buy  = getQueryVariable("buy")
- document.getElementById('view').src = url;
- document.getElementById('dl').href = download;
-document.getElementById('buy').href = buy;
-};
-
-
-
-
-//]]>
-
-</script>
 <script type='text/javascript'>var numposts = 2;var showpostthumbnails = true;var showcommentnum = false;var showpostdate = true;var showpostsummary = false;var numchars = 100;</script> 
 <script expr:src='&quot;/feeds/posts/default/-/&quot; + data:content + &quot;?published&amp;alt=json-in-script&amp;callback=labelthumbs&quot;' type='text/javascript'/>
   </div>
@@ -2699,35 +2621,11 @@ document.getElementById('buy').href = buy;
 <div id='main-wrapper'>
 
 <b:if cond='data:blog.canonicalUrl == data:blog.canonicalHomepageUrl'> 
-<!--
-ts-->
-<h3 class='title-text'>OPEN REGISTRATION</h3>
+<!--Latest Posts-->
+<h3 class='title-text'>Latest Posts</h3>
 </b:if>
  <b:section class='main' id='main' showaddelement='no'>
-   <b:widget id='Blog1' locked='true' title='Posting Blog' type='Blog' version='1'>
-     <b:widget-settings>
-       <b:widget-setting name='showDateHeader'>true</b:widget-setting>
-       <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
-       <b:widget-setting name='showShareButtons'>true</b:widget-setting>
-       <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-       <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
-       <b:widget-setting name='postLocationLabel'>Lokasi: Yogyakarta</b:widget-setting>
-       <b:widget-setting name='showAuthor'>true</b:widget-setting>
-       <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
-       <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
-       <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-       <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
-       <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
-       <b:widget-setting name='style.layout'>1x1</b:widget-setting>
-       <b:widget-setting name='showLabels'>true</b:widget-setting>
-       <b:widget-setting name='showLocation'>true</b:widget-setting>
-       <b:widget-setting name='showTimestamp'>true</b:widget-setting>
-       <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-       <b:widget-setting name='showBacklinks'>false</b:widget-setting>
-       <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-       <b:widget-setting name='showInlineAds'>false</b:widget-setting>
-       <b:widget-setting name='showReactions'>false</b:widget-setting>
-     </b:widget-settings>
+   <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
      <b:includable id='main' var='top'>
   <b:if cond='data:mobile == &quot;false&quot;'>
 
@@ -2935,7 +2833,7 @@ ts-->
       <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
         <dl expr:class='data:post.avatarIndentClass' id='comments-block'>
           <b:loop values='data:post.comments' var='comment'>
-            <dt expr:class='&quot;comment- quot; + data:comment.authorClass' expr:id='data:comment.anchorName'>
+            <dt expr:class='&quot;comment-author &quot; + data:comment.authorClass' expr:id='data:comment.anchorName'>
               <b:if cond='data:comment.favicon'>
                 <img expr:src='data:comment.favicon' height='16px' style='margin-bottom:-2px;' width='16px'/>
               </b:if>
@@ -3395,10 +3293,10 @@ document.write(bp_thumbnail_resize(&quot;<data:post.thumbnailUrl/>&quot;,&quot;<
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <!-- About Author -->
 <div class='aboutauthor'>
-  <img src=''/>
+  <img src='http://2.bp.blogspot.com/-mTz5IJfdCr0/VRK8kiFDDNI/AAAAAAAABXE/sS8TvAK9bgA/s250-c/1.png'/>
   <p class='authorname'><data:post.author/></p>
   <p class='authorrank'>Author &amp; Editor</p>
- <p>Admin SMA Sains Al-Qur&#39;an</p>
+ <p>Has laoreet percipitur ad. Vide interesset in mei, no his legimus verterem. Et nostrum imperdiet appellantur usu, mnesarchum referrentur id vim.</p>
   </div>
 </b:if>
 
@@ -3726,138 +3624,12 @@ printRelatedLabels_thumbs(&quot;<data:post.url/>&quot;);
   </div>
 </b:includable>
    </b:widget>
-   <b:widget id='HTML3' locked='false' title='' type='HTML'>
-     <b:widget-settings>
-       <b:widget-setting name='content'>&lt;!--  Camera_Slideshow Styles  --&gt;
-&lt;link rel=&quot;stylesheet&quot; id=&quot;camera-css&quot; href=&quot;http://project.dimpost.com/camera-slideshow/css/camera.css&quot; type=&quot;text/css&quot; media=&quot;all&quot; /&gt;
-&lt;!-- Camera Slideshow Scripts --&gt;
-&lt;script type=&#39;text/javascript&#39; src=&#39;https://code.jquery.com/jquery-2.1.4.min.js&#39;&gt;&lt;/script&gt;
-&lt;script type=&#39;text/javascript&#39; src=&#39;http://project.dimpost.com/camera-slideshow/scripts/jquery.mobile.customized.min.js&#39;&gt;&lt;/script&gt;
-&lt;script type=&#39;text/javascript&#39; src=&#39;http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js&#39;&gt;&lt;/script&gt;
-&lt;script type=&#39;text/javascript&#39; src=&#39;http://project.dimpost.com/camera-slideshow/scripts/camera.min.js&#39;&gt;&lt;/script&gt;
-&lt;script type=&#39;text/javascript&#39;&gt;
-jQuery(function() {
-    jQuery(&#39;#camera_wrap_1&#39;).camera({
-        time: 2500, // milliseconds between the end of the sliding effect and the start of the nex one
-        transPeriod: 1200, // length of the sliding effect in milliseconds
-        thumbnails: false, // thumnails &amp; tooltip is controlled by it
-        pagination: true, // only when &quot;pagination&quot; is set to &quot;false&quot; thumbnails will be visible
-        fx: &#39;curtainTopLeft, curtainTopRight, curtainBottomLeft, curtainBottomRight, curtainSliceLeft, curtainSliceRight, blindCurtainTopLeft, blindCurtainTopRight, blindCurtainBottomLeft, blindCurtainBottomRight, blindCurtainSliceBottom, blindCurtainSliceTop, stampede, mosaic, mosaicReverse, mosaicRandom, mosaicSpiral, mosaicSpiralReverse, topLeftBottomRight, bottomRightTopLeft, bottomLeftTopRight, bottomLeftTopRight, scrollLeft, scrollRight, scrollHorz, scrollBottom, scrollTop&#39;, // transition effects
-        hover: false, // Pause on hover
-        height: &#39;50%&#39; // slideshow height (50% is default)
-    });
-});
-&lt;/script&gt;
-&lt;style type=&quot;text/css&quot;&gt;
-.fluid_container {
-    margin: 0 auto;
-    /* aling centered */
-    width: 100%;
-    max-width: 900px;
-    overflow: hidden;
-}
-
-
-/* Blogger CSS Conflict Fix */
-
-.camera_pag_ul {
-    border: none !important;
-    background: none !important;
-}
-
-.camera_pag_ul li {
-    float: inherit !important;
-    padding: inherit !important;
-}
-
-.camera_pag_ul {
-    margin: 0 !important;
-    border: 0 !important;
-}
-&lt;/style&gt;
-&lt;div class=&quot;fluid_container&quot;&gt;
-    &lt;!-- camera_slideshow camera_wrap--&gt;
-    &lt;div class=&quot;camera_wrap&quot; id=&quot;camera_wrap_1&quot;&gt;
-        &lt;div data-link=&quot;http://www.dimpost.com/&quot; data-thumb=&quot;https://2.bp.blogspot.com/-_eB_Dvbv_DA/Wt_gMnHNkVI/AAAAAAAAAJc/X5CKSKrvDAkrkOqaxFqPOSa2ml--9BdIwCPcBGAYYCw/s320/ngaji%2Bquranl.jpg&quot; data-src=&quot;https://3.bp.blogspot.com/-BK-Sx3e1fIg/WrXKnV8NAiI/AAAAAAAAAIE/7hZyrV51Iv4ezUs6quFpGcMKgiZwaV0PACPcBGAYYCw/s320/SISWA.jpg&quot;&gt;
-            &lt;div class=&quot;camera_caption fadeFromBottom&quot;&gt;
-                Camera is a responsive/adaptive slideshow. &lt;em&gt;Try to resize the browser window&lt;/em&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div data-link=&quot;http://www.dimpost.com/&quot; data-thumb=&quot;https://3.bp.blogspot.com/-4esPGZuqsbA/WtqgmsOBlUI/AAAAAAAAAIY/ac0--bwH0wcQVgqvXrJBFgkBMwY_cLrNQCPcBGAYYCw/s320/SMA%2BPA.jpeg&quot; data-src=&quot;https://2.bp.blogspot.com/-7MtTlFZVhEY/Wtqg0Iik0MI/AAAAAAAAAIY/ppXFQ3znDq4LZr2KCH51IZdYcys80P5XwCPcBGAYYCw/s320/SMA%2BPI.jpeg&quot;&gt;
-            &lt;div class=&quot;camera_caption fadeFromBottom&quot;&gt;
-                It uses a light version of jQuery mobile, &lt;em&gt;navigate the slides by swiping with your fingers&lt;/em&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div data-link=&quot;http://www.dimpost.com/&quot; data-thumb=&quot;https://1.bp.blogspot.com/-MafkFGnirC4/Wt_f-y4_v6I/AAAAAAAAAJY/coHylsyVHVAtNYBPXZfWXHPMcAhEFi9HgCPcBGAYYCw/s320/ngaji%2Bkitabl.jpg&quot; data-src=&quot;https://2.bp.blogspot.com/-_eB_Dvbv_DA/Wt_gMnHNkVI/AAAAAAAAAJc/X5CKSKrvDAkrkOqaxFqPOSa2ml--9BdIwCPcBGAYYCw/s320/ngaji%2Bquranl.jpg&quot;&gt;
-            &lt;div class=&quot;camera_caption fadeFromBottom&quot;&gt;
-                &lt;em&gt;It&#39;s completely free&lt;/em&gt; (even though a donation is appreciated)
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div data-link=&quot;http://www.dimpost.com/&quot; data-thumb=&quot;https://4.bp.blogspot.com/-7AWoovxkA4M/Wt_m09eo2gI/AAAAAAAAAJs/pOIngi8c9Wg-I-cAcly5IFCatOnoJCanwCPcBGAYYCw/s320/IMG_0032.jpg&quot; data-src=&quot;https://3.bp.blogspot.com/-BK-Sx3e1fIg/WrXKnV8NAiI/AAAAAAAAAIE/7hZyrV51Iv4ezUs6quFpGcMKgiZwaV0PACPcBGAYYCw/s320/SISWA.jpg&quot;&gt;
-            &lt;div class=&quot;camera_caption fadeFromBottom&quot;&gt;
-                Camera slideshow provides many options &lt;em&gt;to customize your project&lt;/em&gt; as more as possible
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div data-link=&quot;http://www.dimpost.com/&quot; data-thumb=&quot;https://3.bp.blogspot.com/-BK-Sx3e1fIg/WrXKnV8NAiI/AAAAAAAAAIE/7hZyrV51Iv4ezUs6quFpGcMKgiZwaV0PACPcBGAYYCw/s320/SISWA.jpg&quot; data-src=&quot;https://3.bp.blogspot.com/-BK-Sx3e1fIg/WrXKnV8NAiI/AAAAAAAAAIE/7hZyrV51Iv4ezUs6quFpGcMKgiZwaV0PACPcBGAYYCw/s320/SISWA.jpg&quot;&gt;
-            &lt;div class=&quot;camera_caption fadeFromBottom&quot;&gt;
-                It supports captions, HTML elements and videos.
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!-- #camera_wrap_1 --&gt;
-&lt;/div&gt;
-&lt;!-- .fluid_container --&gt;</b:widget-setting>
-     </b:widget-settings>
-     <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
-</b:includable>
-   </b:widget>
  </b:section>
 </div>
 
 <div id='rsidebar-wrapper'>
      <b:section class='sidebar' id='sidebarright' preferred='yes'>
-       <b:widget id='Image5' locked='false' title='Galeri SMA Sains AL-Qur&apos;an' type='Image'>
-         <b:widget-settings>
-           <b:widget-setting name='displayUrl'>http://4.bp.blogspot.com/-PcAudo0fl60/Wqz2CNuJz6I/AAAAAAAAAc0/-rZh2oIEZrAt2akm_nFxkG7K_1l7jtxIwCK4BGAYYCw/s295/sma%2Bsains%2Bglowing.jpg</b:widget-setting>
-           <b:widget-setting name='displayHeight'>203</b:widget-setting>
-           <b:widget-setting name='sectionWidth'>295</b:widget-setting>
-           <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
-           <b:widget-setting name='displayWidth'>295</b:widget-setting>
-           <b:widget-setting name='link'>https://www.instagram.com/smasainsalquran/</b:widget-setting>
-           <b:widget-setting name='caption'/>
-         </b:widget-settings>
-         <b:includable id='main'>
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2><data:title/></h2>
-    </b:if>
-    <div class='widget-content'>
-      <b:tag cond='data:link' expr:href='data:link' name='a'>
-        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-      </b:tag>
-      <br/>
-      <b:if cond='data:caption'>
-        <span class='caption'><data:caption/></span>
-      </b:if>
-    </div>
-    <b:include name='quickedit'/>
-  </b:includable>
-       </b:widget>
-       <b:widget id='PopularPosts2' locked='false' title='Popular Posts' type='PopularPosts' version='1'>
-         <b:widget-settings>
-           <b:widget-setting name='numItemsToShow'>10</b:widget-setting>
-           <b:widget-setting name='showThumbnails'>true</b:widget-setting>
-           <b:widget-setting name='showSnippets'>true</b:widget-setting>
-           <b:widget-setting name='timeRange'>LAST_YEAR</b:widget-setting>
-         </b:widget-settings>
+       <b:widget id='PopularPosts2' locked='false' title='Popular Posts' type='PopularPosts'>
          <b:includable id='main'>
   <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
   <div class='widget-content popular-posts'>
@@ -3898,9 +3670,6 @@ jQuery(function() {
 </b:includable>
        </b:widget>
        <b:widget id='HTML1' locked='false' title='Follow us on Facebook' type='HTML'>
-         <b:widget-settings>
-           <b:widget-setting name='content'>https://web.facebook.com/smasainsquran.ppwahidhasyim</b:widget-setting>
-         </b:widget-settings>
          <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -3946,13 +3715,6 @@ jQuery(function() {
 </b:includable>
        </b:widget>
        <b:widget id='Label1' locked='false' title='Labels' type='Label'>
-         <b:widget-settings>
-           <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-           <b:widget-setting name='display'>LIST</b:widget-setting>
-           <b:widget-setting name='selectedLabelsList'/>
-           <b:widget-setting name='showType'>ALL</b:widget-setting>
-           <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
-         </b:widget-settings>
          <b:includable id='main'>
   <b:if cond='data:title != &quot;&quot;'>
     <h2><data:title/></h2>
@@ -3991,182 +3753,6 @@ jQuery(function() {
   </div>
 </b:includable>
        </b:widget>
-       <b:widget id='Profile1' locked='false' title='Kontributor' type='Profile'>
-         <b:widget-settings>
-           <b:widget-setting name='showaboutme'>true</b:widget-setting>
-           <b:widget-setting name='showlocation'>false</b:widget-setting>
-         </b:widget-settings>
-         <b:includable id='main'>
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2><data:title/></h2>
-    </b:if>
-    <div class='widget-content'>
-    <b:if cond='data:team'> <!-- team blog profile -->
-      <ul>
-        <b:loop values='data:authors' var='i'>
-          <li><a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&quot;background-image: url(&quot; + data:i.profileLogo + &quot;);&quot;'><data:i.display-name/></a></li>
-        </b:loop>
-      </ul>
-
-    <b:else/> <!-- normal blog profile -->
-
-      <b:if cond='data:photo.url != &quot;&quot;'>
-        <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
-      </b:if>
-
-      <dl class='profile-datablock'>
-        <dt class='profile-data'>
-          <a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;' rel='author'>
-            <data:displayname/>
-          </a>
-          <b:if cond='data:hasgoogleprofile'>
-            <br/>
-            <div class='g-follow' data-annotation='bubble' data-height='20' expr:data-href='data:userUrl'/>
-          </b:if>
-        </dt>
-
-        <b:if cond='data:showlocation'>
-          <dd class='profile-data'><data:location/></dd>
-        </b:if>
-
-        <b:if cond='data:aboutme != &quot;&quot;'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
-      </dl>
-      <a class='profile-link' expr:href='data:userUrl' rel='author'><data:viewProfileMsg/></a>
-    </b:if>
-
-     <b:include name='quickedit'/>
-    </div>
-  </b:includable>
-       </b:widget>
-       <b:widget id='BlogArchive1' locked='false' title='Arsip Blog' type='BlogArchive'>
-         <b:widget-settings>
-           <b:widget-setting name='showStyle'>HIERARCHY</b:widget-setting>
-           <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
-           <b:widget-setting name='showWeekEnd'>true</b:widget-setting>
-           <b:widget-setting name='monthPattern'>MMMM</b:widget-setting>
-           <b:widget-setting name='dayPattern'>MMM dd</b:widget-setting>
-           <b:widget-setting name='weekPattern'>MM/dd</b:widget-setting>
-           <b:widget-setting name='chronological'>false</b:widget-setting>
-           <b:widget-setting name='showPosts'>true</b:widget-setting>
-           <b:widget-setting name='frequency'>MONTHLY</b:widget-setting>
-         </b:widget-settings>
-         <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-  <div id='ArchiveList'>
-  <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
-    <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
-    <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
-    <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
-  </div>
-  </div>
-  <b:include name='quickedit'/>
-  </div>
-</b:includable>
-         <b:includable id='flat' var='data'>
-  <ul class='flat'>
-    <b:loop values='data:data' var='i'>
-      <li class='archivedate'>
-        <a expr:href='data:i.url'><data:i.name/></a> (<data:i.post-count/>)
-      </li>
-    </b:loop>
-  </ul>
-</b:includable>
-         <b:includable id='interval' var='intervalData'>
-  <b:loop values='data:intervalData' var='interval'>
-    <ul class='hierarchy'>
-      <li expr:class='&quot;archivedate &quot; + data:interval.expclass'>
-        <b:include cond='data:interval.toggleId' data='interval' name='toggle'/>
-        <a class='post-count-link' expr:href='data:interval.url'>
-          <data:interval.name/>
-        </a>
-        <span class='post-count' dir='ltr'>(<data:interval.post-count/>)</span>
-        <b:include cond='data:interval.data' data='interval.data' name='interval'/>
-        <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
-      </li>
-    </ul>
-  </b:loop>
-</b:includable>
-         <b:includable id='menu' var='data'>
-  <select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
-    <option value=''><data:title/></option>
-    <b:loop values='data:data' var='i'>
-      <option expr:value='data:i.url'><data:i.name/> (<data:i.post-count/>)</option>
-    </b:loop>
-  </select>
-</b:includable>
-         <b:includable id='posts' var='posts'>
-  <ul class='posts'>
-    <b:loop values='data:posts' var='post'>
-      <li><a expr:href='data:post.url'><data:post.title/></a></li>
-    </b:loop>
-  </ul>
-</b:includable>
-         <b:includable id='toggle' var='interval'>
-  <a class='toggle' href='javascript:void(0)'>
-    <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
-      <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
-        &#9660;&#160;
-      <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
-        &#9668;&#160;
-      <b:else/>
-        &#9658;&#160;
-      </b:if>
-    </span>
-  </a>
-</b:includable>
-       </b:widget>
-       <b:widget id='Attribution1' locked='true' title='' type='Attribution'>
-         <b:widget-settings>
-           <b:widget-setting name='copyright'/>
-         </b:widget-settings>
-         <b:includable id='main'>
-    <div class='widget-content' style='text-align: center;'>
-      <b:if cond='data:attribution != &quot;&quot;'>
-       <data:attribution/>
-      </b:if>
-    </div>
-
-    <b:include name='quickedit'/>
-  </b:includable>
-       </b:widget>
-       <b:widget id='Navbar1' locked='true' title='Navbar' type='Navbar'>
-         <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
-    function setAttributeOnload(object, attribute, val) {
-      if(window.addEventListener) {
-        window.addEventListener(&#39;load&#39;,
-          function(){ object[attribute] = val; }, false);
-      } else {
-        window.attachEvent(&#39;onload&#39;, function(){ object[attribute] = val; });
-      }
-    }
-  &lt;/script&gt;
-&lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-      gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
-        if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
-          gapi.iframes.getContext().openChild({
-              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d7997312854620488866\x26blogName\x3dSMA+Sains+Al-Qur\x27an+Yayasan+Pondok+Pe...\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://smasainsquran.ppwahidhasyim.com/search\x26blogLocale\x3din\x26v\x3d2\x26homepageUrl\x3dhttp://smasainsquran.ppwahidhasyim.com/\x26vt\x3d-7252236142517994147&#39;,
-              where: document.getElementById(&quot;navbar-iframe-container&quot;),
-              id: &quot;navbar-iframe&quot;
-          });
-        }
-      });
-    &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
-(function() {
-var script = document.createElement(&#39;script&#39;);
-script.type = &#39;text/javascript&#39;;
-script.src = &#39;//pagead2.googlesyndication.com/pagead/js/google_top_exp.js&#39;;
-var head = document.getElementsByTagName(&#39;head&#39;)[0];
-if (head) {
-head.appendChild(script);
-}})();
-&lt;/script&gt;
-</b:includable>
-       </b:widget>
      </b:section>
 </div>
       
@@ -4178,17 +3764,16 @@ head.appendChild(script);
 
 <b:if cond='data:blog.canonicalUrl == data:blog.canonicalHomepageUrl'> 
 <!--Out Team-->
-
-  <!--<div id='our-team'>
+<div id='our-team'>
 <div class='margin-1200'>
 
-<h3 class='title-texts'>Program Unggulan</h3>
+<h3 class='title-texts'>Our Team</h3>
 
   <li><span class='image-wrap'><img src='https://2.bp.blogspot.com/-wx-vrT9SshM/VuumzzRB_RI/AAAAAAAAAoc/GpxaRV0DSiwA3JJzwOgUtRjgnUc4Caxew/s320/1.jpg'/></span><span class='name'>Syed Faizan Ali</span><span class='rank'>Master / Computers</span></li>   
 
  <li><span class='image-wrap'><img src='https://2.bp.blogspot.com/-5FcR8k4jzoQ/Vuumz6ZtBHI/AAAAAAAAAoU/PoLnTE206dE9xG-QTjNTuMK46tnXV9Nqw/s320/2.jpg'/></span><span class='name'>Syed Faizan Ali</span><span class='rank'>Master / Computers</span></li>   
 
- <li><span class='image-wrap'><img src='https://4.bp.blogspot.com/-_eB_Dvbv_DA/Wt_gMnHNkVI/AAAAAAAAAJU/BePZwFanEwkP5HGP_mzyZ5tkiqEBFe7-ACLcBGAs/s400/ngaji%2Bquranl.jpg'/></span><span class='name'>Syed Faizan Ali</span><span class='rank'>Master / Computers</span></li> 
+ <li><span class='image-wrap'><img src='https://2.bp.blogspot.com/-s86KzCfkoXA/Vuumzx1Vi1I/AAAAAAAAAoY/Q7ylbmuj-BEBZGg3vRUnZgAn9ufBrsZig/s320/3.jpg'/></span><span class='name'>Syed Faizan Ali</span><span class='rank'>Master / Computers</span></li>   
 
  <li><span class='image-wrap'><img src='https://1.bp.blogspot.com/-2rcdYUFBmdk/VuunNhq1qUI/AAAAAAAAAog/2RfCLfRB3T8whe6B2pkaI__7twiyEm9PA/s320/4.jpg'/></span><span class='name'>Syed Faizan Ali</span><span class='rank'>Master / Computers</span></li>  
 
@@ -4197,16 +3782,14 @@ head.appendChild(script);
  <li><span class='image-wrap'><img src='https://2.bp.blogspot.com/-s86KzCfkoXA/Vuumzx1Vi1I/AAAAAAAAAoY/Q7ylbmuj-BEBZGg3vRUnZgAn9ufBrsZig/s320/3.jpg'/></span><span class='name'>Syed Faizan Ali</span><span class='rank'>Master / Computers</span></li>  
 
 </div>
-</div>--> 
-
-
+</div>
 
 <!--Popular Course-->
 <div id='popular-course'>
 <div class='margin-1200'>
 <h3 class='title-texts'>Popular Course</h3>
 <b:section class='popular1' id='Popular-Course' maxwidgets='1' showaddelement='yes'>
-  <b:widget id='HTML104' locked='false' title='' type='HTML' version='1'>
+  <b:widget id='HTML104' locked='true' title='Featured Posts' type='HTML'>
     <b:includable id='main'>
   <div class='widget-content'>
 
@@ -4224,10 +3807,7 @@ head.appendChild(script);
 </b:section>
 
 <b:section class='popular2' id='Popular-Course2' maxwidgets='1' showaddelement='yes'>
-  <b:widget id='HTML105' locked='true' title='Populer' type='HTML' version='1'>
-    <b:widget-settings>
-      <b:widget-setting name='content'>Populer</b:widget-setting>
-    </b:widget-settings>
+  <b:widget id='HTML105' locked='true' title='Featured Posts' type='HTML'>
     <b:includable id='main'>
   <div class='widget-content'>
 
@@ -4253,14 +3833,7 @@ head.appendChild(script);
 <div class='margin-1200'>
 <div class='footer-widget'>
 <b:section class='footersec' id='footersec1' showaddelement='yes'>
-  <b:widget id='HTML21' locked='false' title='Kontak' type='HTML'>
-    <b:widget-settings>
-      <b:widget-setting name='content'>Jl. Wahid Hasyim No. 3 Gaten Condongcatur Depok Sleman Yogyakarta, 55283.
-
-email : smasains@ppwahidhasyim.com 
-
-phone: +62 85743771131 &lt;p&gt;&lt;/p&gt;</b:widget-setting>
-    </b:widget-settings>
+  <b:widget id='HTML21' locked='false' title='About' type='HTML'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -4278,9 +3851,6 @@ phone: +62 85743771131 &lt;p&gt;&lt;/p&gt;</b:widget-setting>
 <div class='footer-widget'>
 <b:section class='footersec' id='footersec2' showaddelement='yes'>
   <b:widget id='HTML4' locked='false' title='Site Links' type='HTML'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<a href="index.html"></a>]]></b:widget-setting>
-    </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -4297,13 +3867,7 @@ phone: +62 85743771131 &lt;p&gt;&lt;/p&gt;</b:widget-setting>
 </div>
 <div class='footer-widget'>
 <b:section class='footersec' id='footersec3' showaddelement='yes'>
-  <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts' version='1'>
-    <b:widget-settings>
-      <b:widget-setting name='numItemsToShow'>2</b:widget-setting>
-      <b:widget-setting name='showThumbnails'>true</b:widget-setting>
-      <b:widget-setting name='showSnippets'>true</b:widget-setting>
-      <b:widget-setting name='timeRange'>LAST_YEAR</b:widget-setting>
-    </b:widget-settings>
+  <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts'>
     <b:includable id='main'>
   <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
   <div class='widget-content popular-posts'>
@@ -4347,10 +3911,7 @@ phone: +62 85743771131 &lt;p&gt;&lt;/p&gt;</b:widget-setting>
 </div>
 <div class='footer-widget last'>
 <b:section class='footersec' id='footersec4' showaddelement='yes'>
-  <b:widget id='HTML2' locked='false' title='PROFIL SMA SAINS AL-QUR&apos;AN' type='HTML'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe width="560" height="315" src="https://www.youtube.com/embed/Pi5lMAoFwKQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>]]></b:widget-setting>
-    </b:widget-settings>
+  <b:widget id='HTML2' locked='false' title='' type='HTML'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -4367,15 +3928,14 @@ phone: +62 85743771131 &lt;p&gt;&lt;/p&gt;</b:widget-setting>
 </div>
 </div>
 
-
 <!--Copyrights-->
 <div class='copyrights'>
 <div class='margin-1200'>
-<p class='left'> Copyrights @ <data:blog.title/> - <a href='http://smasainsquran.ppwahidhasyim.com/' id='mycontent'>Visit PP Wahid Hasyim</a> By admin | <a href='https://ppwahidhasyim.com'>PP Wahid Hasyim</a></p>
+<p class='left'> Copyrights @ <data:blog.title/> - <a href='http://www.templateism.com' id='mycontent'>Blogger Templates</a> Shared By | <a href='https://waytemplates.blogspot.com/'>Way Templates</a></p>
 <ul class='right'>
 <li><i class='fa fa-phone'/> (91) 5544 654942</li>
-<li><i class='fa fa-envelope-o'/> smasains@gmail.com</li>
-<li><i class='fa fa-twitter'/> Wahid Hasyim Jogja</li>
+<li><i class='fa fa-envelope-o'/> support@templateism.com</li>
+<li><i class='fa fa-twitter'/> Templateism</li>
 </ul>
 </div>
 </div>
